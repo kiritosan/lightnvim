@@ -23,7 +23,7 @@ packer.startup(function(use)
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
 
-  use 'glepnir/lspsaga.nvim' -- LSP UIs
+  -- use 'glepnir/lspsaga.nvim' -- LSP UIs
   use 'L3MON4D3/LuaSnip'
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -52,5 +52,6 @@ packer.startup(function(use)
     end
   }
   use 'machakann/vim-sandwich'
+  use 'wakatime/vim-wakatime'
 
 end)
