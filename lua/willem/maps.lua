@@ -8,6 +8,7 @@ g.mapleader = ','
 -- ##### insert mode #####
 -- implement experience of vim
 keymap.set('i', "jk", "<ESC>")
+keymap.set('i', "kj", "<ESC>")
 keymap.set('i', "<C-s>", "<ESC>:w<CR>")
 -- go to beginning and end
 keymap.set('i', "<C-a>", "<ESC>^i")
