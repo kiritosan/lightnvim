@@ -42,6 +42,7 @@ keymap.set('n', 'S', 'ciw<C-r>0<ESC>')
 -- Split window
 keymap.set('n', 'ss', ':split<Return><C-w>w')
 keymap.set('n', 'sv', ':vsplit<Return><C-w>w')
+keymap.set('n', 'sq', ':q<Return>') -- CR equals to Return
 
 -- Move window
 keymap.set('n', '<Space>', '<C-w>w')
