@@ -30,7 +30,7 @@ keymap.set('n', '<ESC>', '<cmd> noh <CR>')
 keymap.set('n', '<CR>', ':noh<CR><CR>')
 
 -- Select all
-keymap.set('n', '<C-a>', 'gg<S-v>G')
+-- keymap.set('n', '<C-a>', 'gg<S-v>G')
 -- save current buffer
 keymap.set('n', '<C-s>', ':w<CR>')
 -- powerful Substitude
